@@ -1,0 +1,32 @@
+.container{
+    direction: rtl;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    height: 8%;
+    margin-top: 0px;
+    align-items: center;
+    display: flex;
+    margin-right: 4%;
+    margin-left: 12%;
+margin-bottom: 8px;
+}
+a{
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height:8%;
+    font-size: 18px;
+   
+}
+#logo{
+    margin-right: 5%;
+    margin-left: 5%;
+height: 90px;
+}
+.first{
+    margin-right: 4%;
+}
+.second{
+    margin-left: 4%;
+}

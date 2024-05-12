@@ -1,0 +1,326 @@
+.container {
+    direction: rtl;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    height: 8%;
+    margin-top: 0;
+    align-items: center;
+    display: flex;
+    margin-right: 0%;
+    margin-left: 12%;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 10px;
+    width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height: 8%;
+    font-size: 18px;
+    color: #440d34;
+
+}
+a:hover{
+    color:#eb576b;
+}
+
+#logo {
+    margin-right: 3%;
+
+    height: 90px;
+    margin-top: 15%;
+}
+
+.first {
+    margin-right: 4%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url('../images/BFGTHYB.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#hagadaShelanu {
+    background-color: rgba(65, 174, 159, 0.566);
+    margin: 80px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+#zis {
+    margin-right: 3%;
+    margin-top: 90px;
+    margin-left: 35px;
+    color: #440d34;
+}
+
+#zisa {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#circle>p {
+    margin-top: 40%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #440d34;
+    font-size: 35px;
+    
+}
+
+#circle {
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 270px;
+    background-color: #ffefdd;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#circle1>p {
+    margin-top: 40%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 35px;
+}
+
+#circle1 {
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 270px;
+    background-color: rgba(65, 174, 159, 0.566) ;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#circle2>p {
+    margin-top: 40%;
+    text-align: center;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 35px;
+}
+
+#circle2 {
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    border-radius: 270px;
+    background-color: #eb576b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#egulim {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 5%;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+
+#gvia-glida {
+    background-image: url('glidaaaa.png');
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+    margin-top: 7%;
+}
+#purple{
+    display: grid;
+    grid-template-rows:70% 30%;
+    background-color: #440d34;
+    width: 100%;
+    height: 200px;
+}
+#allNum{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    font-size: 65px;
+    margin-top:-1%;
+    
+}
+#allP{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    font-size: 150%;
+    margin-top: -3%;
+}
+#purple>div> p{
+    color: #ffefdd;
+    text-align: center;
+}
+#yazam{
+   height: 50%;
+   width: 100%;
+}
+#yazam1{
+font-size: 120px;
+color: #440d34;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: -5%;
+}
+#hasnif{
+    color: #440d34;
+    font-size: 120px;
+    text-align: center;
+    margin-top: -10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+#nedaber{
+    background-color: #eb576b;
+    height: 500px;
+    /* margin-top: 7%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+    
+}
+#gif1{
+    width: 60%;
+    margin-right: 20%;
+    margin-top: 20%;
+}
+
+.cvc{
+    background-color: #eb576b;
+}
+
+
+ 
+.box3{
+    
+    /* text-align: center; */
+    height: 100%;
+    margin-top: 30px;
+    /* padding: 12px;  */
+    margin-left: 5%;
+    width: 80%;
+    margin-right: 5%;
+
+}
+.box3>h3{
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+.box3 form{
+      display: flex;
+      flex: 1;
+      flex-direction:column;
+    justify-content: center;
+
+}
+.box3 form input[ name="details"]{
+   border-top: 2cm;
+   border-color: #ffffff;
+   border-left: 0;
+   border-right: 0;
+    align-items: center;
+}
+.box3 form button{
+    font-size: 16pt;
+    width:220px;
+    height:60px ;
+    border-radius: 30px;
+    border: 0cm;
+    background-color: #ffffff;
+    color: #eb576b;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+    #hagadaShelanu {
+        background-color: rgba(65, 174, 159, 0.566);
+        margin: 80px;
+        display: grid;
+        grid-template-columns: 80%;
+        grid-template-rows: 35% 65%;
+    width: 100%;
+    margin-right: 0px;
+    }
+   
+    #zis {
+      margin-right: 30%;
+    }
+    #egulim {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 5%;
+        margin-right: 27%;
+        margin-top: 7%;
+    }
+    #gvia-glida {
+        width: 100%;
+        background-image: url('glidaaaa.png');
+        background-size: cover;
+        background-position: center;
+        height: 120vh;
+        margin-top: 7%;
+    }
+  }
+  
+  #atchala{
+    width: 100%;
+    height: 100px;
+    
+  }
+  #footer{
+    background-image: url(../images/michishi.png);
+    width: 100%;
+    margin-top: 100px;
+   margin-left: 50%; 
+  }
+  #tel{
+    /* color: white; */
+  }
+  @media only screen and (max-width: 992px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    #egulim {
+      margin-right: 0;
+    }
+  }
+  This code applies to screens that have a maximum width of 992 pixels. Within this media query, the .container class is updated to become a flex container that centers its children vertically and horizontally. The flex-direction property sets the main axis to be vertical so that the elements are centered vertically. The justify-content and align-items properties center the elements horizontally. Additionally, the margin-right property is set to 0 for the #egulim element, so that the elements within it will not be pushed to the right of the container.
+  
+  With these changes, when the screen size is reduced to 992px, the elements within .container will be centered instead of being stacked on top of each other.
+  
+  
+  
+  
+  

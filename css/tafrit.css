@@ -1,0 +1,89 @@
+.container{
+    direction: rtl;
+}
+header {
+    text-align: center;
+    justify-content: center;
+    height: 8%;
+    margin-top: 0;
+    align-items: center;
+    display: flex;
+    margin-right: 0%;
+    margin-left: 12%;
+    margin-bottom: 50px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 10px;
+    width: 100%;
+
+}
+#kesher{
+    color: #eb576b;
+}
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    line-height: 8%;
+    font-size: 18px;
+    color: #440d34;
+
+}
+a:hover{
+    color:#eb576b;
+}
+
+#logo {
+    margin-right: 3%;
+
+    height: 90px;
+    margin-top: 15%;
+}
+
+.first {
+    margin-right: 4%;
+}
+#grid{
+    height:150%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: (4, fr);
+    margin: auto;
+}
+#daf{
+    width: 100%;
+    
+     
+}
+#daf2{
+    width: 100%;
+    
+}
+#daf3{
+    width: 100%;
+}
+#daf4{
+    width: 100%;
+}
+#footer{
+    background-image: url(../images/michishi.png);
+    width: 100%;
+    margin-top: 100px;
+   margin-left: 50%; 
+}@media only screen and (max-width: 992px){
+    #grid{
+        height:150%;
+        width: 90%;
+        display: grid;
+        grid-template-rows: (4, fr);
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 600px){
+    #grid{
+        height:150%;
+        width: 90%;
+        display: grid;
+        grid-template-rows: (4, fr);
+        margin: auto;
+    }
+}

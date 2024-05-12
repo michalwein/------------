@@ -1,0 +1,60 @@
+
+
+
+
+.box3{
+    grid-area: box3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 3px;
+    text-align: center;
+    height: 600px;
+    margin-top: 30px;
+    padding: 12px;
+    
+
+}
+.box3 form{
+      display: flex;
+      flex: 1;
+      flex-direction:column;
+    justify-content: center;
+
+}
+.box3 form input[ name="details"]{
+   border-top: 2cm;
+   border-color: rgb(117, 117, 117);
+   border-left: 0;
+   border-right: 0;
+    align-items: center;
+}
+
+.box3 form fieldset{
+    max-width: 100%;
+    display: flex;
+    /* flex-direction:row; */
+    flex-flow:row-reverse wrap ;
+    /* flex: 4; */
+  justify-content: center;
+  
+}
+
+ .box3 form button input [name="submit"]{
+    width:220px;
+    height:60px ;
+    border-radius: 30px;
+    border: 0cm;
+    background-color: rgb(242,207,53);
+ }
+.box3 form button{
+    font-size: 16pt;
+    width:220px;
+    height:60px ;
+    border-radius: 30px;
+    border: 0cm;
+    background-color: rgb(242,207,53);
+}
+.box3 form button:hover{
+    transform: scale(0.8,0.8);
+ 
+}
